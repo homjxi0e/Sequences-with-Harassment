@@ -1,0 +1,31 @@
+function kernel {
+
+#> This Is Bypassing kernel to execute Command//
+
+#> Via hijacking Method invoke-bashrc // 
+ 
+ Hijacking=$(tput setaf 2 tput blood)
+
+echo "Home you"
+	read target
+ cd $target/
+   echo "R-W"
+       read targets
+ wget $targets
+    
+    kernel () { echo " "; bash; }
+echo $Hijacking [*] Please wait until is the invoke Method Hijacking
+sleep 1.5
+echo  " "
+
+echo $Hijacking [*] In the method to execute Hijacking invoke-bashrc
+sleep 1
+echo  " " 
+
+echo $Hijacking [*] The readers of the kidnapping will now be executed
+sleep 1
+echo  " " 
+ kernel
+}
+
+kernel
